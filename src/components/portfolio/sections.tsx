@@ -1,10 +1,10 @@
-import { useState, type FormEvent } from 'react';
+import { useState } from 'react';
 import { Link } from '@tanstack/react-router';
-import { ArrowRight, ArrowUpRight, ArrowDown, ArrowLeft, Code2, Cloud, Cpu, Database, Check, Copy, Search, Award, Download, Quote, Send, LoaderCircle } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, ArrowDown, ArrowLeft, Code2, Cloud, Cpu, Database, Check, Copy, Search, Award, Download, Quote, Send, Mail } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
-import { profile, stats, skillGroups, experiences, projects, services, certifications, testimonials, filterProjects, validateContact, type Project } from '@/data/portfolio';
+import { profile, stats, skillGroups, experiences, projects, services, certifications, testimonials, filterProjects, type Project } from '@/data/portfolio';
 import { ProjectArt } from './project-art';
 import { SectionHeading, SocialLinks, ResumeButton, SampleLink, icons } from './shared';
 
