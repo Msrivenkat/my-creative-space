@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1017 >>
+stream
+BT /F1 12 Tf 50 790 Td 19 TL
+(Alex Morgan - FICTIONAL SAMPLE RESUME) Tj T*
+(Software Engineer & Creative Developer) Tj T*
+(Bengaluru, India | hello@alexmorgan.example) Tj T*
+() Tj T*
+(PROFILE) Tj T*
+(Building thoughtful web applications, intelligent experiences and cloud solutions.) Tj T*
+() Tj T*
+(EXPERIENCE) Tj T*
+(2025 - Present: Software Engineer, TechNova Solutions) Tj T*
+(2024 - 2025: Frontend Developer, PixelCraft Studio) Tj T*
+(2023 - 2024: Development Intern, Nexus Digital) Tj T*
+() Tj T*
+(EDUCATION) Tj T*
+(B.Tech in Computer Science, Northfield Institute of Technology, 2020 - 2024) Tj T*
+() Tj T*
+(SKILLS) Tj T*
+(React, TypeScript, Python, Django, PostgreSQL, AWS, Docker, Figma) Tj T*
+() Tj T*
+(CERTIFICATIONS) Tj T*
+(AWS Cloud Practitioner, Oracle Cloud Foundations, Meta Front-End Developer) Tj T*
+() Tj T*
+(ACHIEVEMENTS) Tj T*
+(15+ sample projects, 5 sample certifications, 3 collaborative hackathons) Tj T*
+() Tj T*
+(All information is fictional. Replace with a real resume when ready.) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1380
+%%EOF
