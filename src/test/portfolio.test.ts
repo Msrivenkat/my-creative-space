@@ -8,7 +8,7 @@ describe('portfolio project rules',()=>{
 });
 describe('contact validation',()=>{
  it('requires all four fields',()=>expect(Object.keys(validateContact({name:'',email:'',subject:'',message:''}))).toEqual(['name','email','subject','message']));
- it('rejects invalid email addresses',()=>expect(validateContact({name:'Sample',email:'invalid',subject:'Hello',message:'Test'}).email).toBe('Please enter a valid email address.'));
- it('rejects whitespace-only messages',()=>expect(validateContact({name:'Sample',email:'sample@example.com',subject:'Hello',message:'  '}).message).toBe('Message is required.'));
+ it('rejects invalid email addresses',()=>expect(validateContact({name:'Sample',email:'invalid',subject:'Hello',message:'Test'})["email"]).toBe('Please enter a valid email address.'));
+ it('rejects whitespace-only messages',()=>expect(validateContact({name:'Sample',email:'sample@example.com',subject:'Hello',message:'  '})["message"]).toBe('Message is required.'));
  it('accepts a complete sample message',()=>expect(validateContact({name:'Sample',email:'sample@example.com',subject:'Hello',message:'A sample project inquiry'})).toEqual({}));
 });
