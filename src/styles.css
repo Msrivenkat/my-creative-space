@@ -219,3 +219,8 @@
 .social-links a { min-width:24px; min-height:32px; display:grid; place-items:center; }
 .project-dialog-image > .project-art,.project-detail-image > .project-art { height:100%; }
 @media (max-width:640px) { .filters button { min-height:44px; padding-inline:14px; } .social-links { gap:10px; } .social-links a { min-width:32px; min-height:44px; } .mobile-toggle { min-width:44px; min-height:44px; } }
+.scroll-reveal { opacity:0; transform:translateY(18px); transition:opacity .65s,transform .65s; }
+.scroll-reveal.in-view { opacity:1; transform:none; }
+.cursor-ring { position:fixed; top:0; left:0; width:24px; height:24px; border:1px solid color-mix(in oklab,var(--primary) 50%,transparent); border-radius:50%; z-index:100; pointer-events:none; opacity:0; transition:opacity .2s; }
+.cursor-ring.visible { opacity:.7; }
+@media (prefers-reduced-motion:reduce) { .scroll-reveal { opacity:1; transform:none; } .cursor-ring { display:none; } }
