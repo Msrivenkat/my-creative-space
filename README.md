@@ -1,14 +1,50 @@
-# Welcome to your Lovable project
+# My Creative Space
+
+Portfolio
+
+│
+
+├── Home
+
+├── About
+
+├── Skills
+
+├── Experience
+
+├── Projects
+
+│   ├── Project 1
+
+│   ├── Project 2
+
+│   └── Project 3
+
+├── Services
+
+├── Resume
+
+├── Certifications
+
+├── Achievements
+
+├── Testimonials
+
+├── Contact
+
+└── Footer  One important thing, bro
+
+Don't put your actual information into the AI builder initially. First make the complete UI using dummy data, then replace the data.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/34f4c016-1162-4d07-bad6-69ab10dd2c0a).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +56,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
